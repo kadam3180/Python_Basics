@@ -7,3 +7,5 @@ class wardrobe:
 
 
 wardrobe1 = wardrobe("grey")
+
+# Class
