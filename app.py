@@ -31,3 +31,5 @@ elif jatekos_pont > robot_pont:
     print("You Win")
 else:
     print("Draw")
+
+# Rock, papper,scissors
