@@ -32,4 +32,4 @@ elif jatekos_pont > robot_pont:
 else:
     print("Draw")
 
-# Rock, papper,scissors
+# Rock, papper, scissors game
