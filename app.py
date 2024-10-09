@@ -1,5 +1,4 @@
 import random
-
 valasztasok = ['Kő', 'Papír', 'Olló']
 robot_pont = 0
 jatekos_pont = 0
@@ -7,12 +6,11 @@ jatekos_pont = 0
 for i in range(3):
 
     jatekos = input("Valasztasod:")
-
     robot = random.choice(valasztasok)
+
     while not jatekos in valasztasok:
         jatekos = input("Ujra:")
         break
-
     if jatekos == robot:
         print("Draw")
         print(robot, jatekos)
